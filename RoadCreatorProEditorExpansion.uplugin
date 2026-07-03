@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Road Creator Pro Editor Expansion",
+	"Description": "Adds a standalone Road Creator Pro editor mode.",
+	"Category": "Editor",
+	"CreatedBy": "Drox",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RoadCreatorProEditorExpansion",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
