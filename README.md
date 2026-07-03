@@ -154,31 +154,6 @@ about spatially loaded actors referencing non-spatial actors.
 If an older imported map still warns on save, select the imported OSM actors and
 make sure their `Is Spatially Loaded` setting matches.
 
-## Binary Builds
-
-For binary-only distribution, keep:
-
-```text
-RoadCreatorProEditorExpansion.uplugin
-Binaries/
-Intermediate/
-Source/RoadCreatorProEditorExpansion/RoadCreatorProEditorExpansion.Build.cs
-```
-
-Do not ship:
-
-```text
-Source/RoadCreatorProEditorExpansion/Private/
-*.cpp
-*.pdb
-```
-
-The packaged `Build.cs` should include:
-
-```csharp
-bUsePrecompiled = true;
-```
-
 ## Limitations
 
 - This is an editor plugin, not a runtime gameplay plugin.
